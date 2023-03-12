@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="80dp">
+
+
+    <ImageView
+        android:id="@+id/ProifileIconIV"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/user" />
+
+    <TextView
+        android:id="@+id/emailTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alex@gmail.com"
+        android:layout_marginLeft="150dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From:"
+        android:layout_marginLeft="110dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="At:"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="110dp"/>
+
+
+
+
+
+
+</RelativeLayout>
